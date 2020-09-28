@@ -8,4 +8,6 @@ public interface ItemsDao {
     List<Items> findAll();
 
     int save(Items items);
+
+    int ahri(Items items);
 }
